@@ -1,0 +1,12 @@
+D:\docker\pod>kubectl create -f pod3.yml
+pod/pod3 created
+
+D:\docker\pod>kubectl get pods
+NAME   READY   STATUS    RESTARTS   AGE
+pod3   1/1     Running   0          112s
+
+D:\docker\pod>kubectl port-forward pod3 8080:80
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
+Handling connection for 8080
