@@ -1,0 +1,2 @@
+To jest repo zadań dla kursu edu.poznajkubernetes.pl
+by DaMi - Damian Grałek
